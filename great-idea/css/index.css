@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+	border: 20px solid rgb(0, 255, 13);
+	}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+
+/* Your code starts here! */
+
+*{
+	color: black;
+}
+
+.container {
+width:  1024px;
+margin:  0 auto;
+}
+
+
+.container header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+header nav a {
+	text-decoration: none;
+}
+header nav a:hover {
+	color: blueviolet;
+  }
+
+  .services-header-img {
+	  width:  100%;
+  }
+
+
+.container-ourservices {
+	display: flex;
+
+}
+
+.container-6boxes {
+	display: flex;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+ul {
+	list-style-type: square;
+}
+
+.copyright {
+	text-align:  center;
+	padding: 20px;
+}
+
+.somefacts {
+	display= flex;
+}
+
