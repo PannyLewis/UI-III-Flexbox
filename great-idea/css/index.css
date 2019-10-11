@@ -48,20 +48,6 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
@@ -79,7 +65,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
-	padding: 20px;
+	padding: 10px 0;
 }
 
 /* Your code starts here! */
@@ -89,7 +75,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-width:  1024px;
+width:  960px;
 margin:  0 auto;
 }
 
@@ -98,8 +84,8 @@ margin:  0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 20px 20px;
-	padding: 10px;
+	margin: 20px 0px;
+	padding: 10px 0;
 	margin-bottom: 10px;
 	
 }
@@ -117,18 +103,53 @@ header nav a:hover {
 
 .container-ourservices {
 	display: flex;
-
 }
 
+.ourservices p {
+	margin-bottom: 30px;
+}
+
+
+
 .container-6boxes {
-	display: flex;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 
 }
 
+.service-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-box {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 15px;
+	background-color: #F4F3F4;
+	margin: 30px 0;
+	width: 47%;
+}
+
+.service-box a {
+	border:  1px solid black;
+	padding: 10px;
+	text-decoration: none;
+	width: 35%;
+	margin-top: 20px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+}
+
+
+
+
 ul {
 	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
 }
 
 .copyright {
@@ -137,6 +158,8 @@ ul {
 }
 
 .somefacts {
-	display= flex;
+	display: flex;
+	margin-top: 20px;
+	margin-bottom:  20px;
 }
 
