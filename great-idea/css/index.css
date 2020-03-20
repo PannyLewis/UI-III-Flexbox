@@ -131,6 +131,9 @@ header nav a:hover {
 	width: 50%;
 }
 
+.center a:hover {
+	background-color: rgb(213, 186, 238);
+}
 
 
 .copyright {
